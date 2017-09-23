@@ -1,0 +1,53 @@
+
+Gmail API Overview
+
+The Gmail API is a RESTful API that can be used to access Gmail mailboxes and send mail. For most web applications (including mobile apps), the Gmail API is the best choice for authorized access to a user's Gmail data.
+
+
+The Gmail API gives you flexible, RESTful access to the user's inbox, with a natural interface to Threads, Messages, Labels, Drafts, History, and. Settings. From the modern language of your choice, your app can use the API to add Gmail features like:
+
+Read messages from Gmail
+Send email messages
+Modify the labels applied to messages and threads
+Search for specific messages and threads
+Create filters to automatically label, forward, or archive messages
+All you need to use the Gmail API is the client library for your choice of language and an app that can authenticate as a Gmail user.
+
+Typical use cases
+
+The Gmail API can be used in a variety of different applications, including, typically:
+
+Read-only mail extraction, indexing, and backup
+Label management (add/remove labels)
+Automated or programmatic message sending
+Migrating email accounts from other providers
+Set standardized email signatures for users in a domain
+Note: The Gmail API should not be used to replace IMAP for full-fledged email client access. Instead, see IMAP and SMTP.
+How do I find out more?
+
+Use this documentation to start building a Gmail app today:
+
+The client libraries are available for download in several languages and simplify making API requests.
+The developer guide topics help you better understand how to implement particular use cases.
+The API reference gives you details on every resource and method in the Gmail API.
+API overview
+
+The Gmail API is a web service: it uses a RESTful API with a JSON payload. This section provides a general overview of the API features and their use. For detailed information on the API's resources and methods, refer to the Gmail API reference.
+
+Key resource types
+
+The Gmail API provides several resource types:
+
+Messages
+Labels
+Drafts
+History
+Threads
+Settings
+Messages and labels are the basic units of a mailbox. Drafts, history, and threads all contain one or more messages with additional metadata.
+
+Messages are immutable: they can only be created and deleted. No message properties can be changed other than the labels applied to a given message.
+
+Labels serve as the primary means of categorizing and organizing messages and threads. A label has a many-to-many relationship with messages and threads: a single message may have multiple labels applied to it and a single label may be applied to multiple messages or threads. Labels also come in two types: system and user. System labels, such as INBOX, TRASH, or SPAM, are internally created and cannot be created, deleted, or modified. However, some system labels, such as INBOX, can be applied to or removed from messages and threads. User labels can be added, deleted, or modified by the user or an application.
+
+Drafts represent unsent messages. The messages themselves cannot be modified once created, but the message contained within the draft may be replaced. Sending a draft automatically deletes the draft and creates a message with the SENT system label.

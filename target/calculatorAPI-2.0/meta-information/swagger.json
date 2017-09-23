@@ -1,0 +1,38 @@
+{
+  "paths" : {
+    "/*" : {
+      "post" : {
+        "x-auth-type" : "Application & Application User",
+        "responses" : {
+          "200" : {
+            "description" : "OK"
+          }
+        },
+        "parameters" : [ {
+          "schema" : {
+            "type" : "string"
+          },
+          "in" : "body",
+          "name" : "SOAP Request",
+          "description" : "SOAP request.",
+          "required" : true
+        }, {
+          "in" : "header",
+          "name" : "SOAPAction",
+          "description" : "SOAPAction header for soap 1.1",
+          "type" : "string",
+          "required" : false
+        } ],
+        "x-throttling-tier" : "Unlimited"
+      }
+    }
+  },
+  "produces" : [ "text/xml", "application/soap+xml" ],
+  "swagger" : "2.0",
+  "consumes" : [ "text/xml", "application/soap+xml" ],
+  "info" : {
+    "description" : "sample API",
+    "title" : "calculatorAPI",
+    "version" : "2.0"
+  }
+}

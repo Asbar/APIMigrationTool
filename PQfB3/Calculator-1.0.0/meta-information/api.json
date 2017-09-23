@@ -1,0 +1,43 @@
+{
+  "tiers" : [ "Unlimited" ],
+  "description" : null,
+  "apiDefinition" : "{\"swagger\":\"2.0\",\"paths\":{\"/Calculator\":{\"get\":{\"responses\":{\"200\":{\"description\":\"\"}},\"x-auth-type\":\"Application & Application User\",\"x-throttling-tier\":\"Unlimited\"}}},\"info\":{\"title\":\"Calculator\",\"version\":\"1.0.0\"}}",
+  "type" : "HTTP",
+  "sequences" : [ ],
+  "visibleRoles" : [ ],
+  "corsConfiguration" : {
+    "accessControlAllowOrigins" : [ "*" ],
+    "accessControlAllowCredentials" : false,
+    "accessControlAllowHeaders" : [ "authorization", "Access-Control-Allow-Origin", "Content-Type", "SOAPAction" ],
+    "corsConfigurationEnabled" : false,
+    "accessControlAllowMethods" : [ "GET", "PUT", "POST", "DELETE", "PATCH", "OPTIONS" ]
+  },
+  "subscriptionAvailability" : null,
+  "provider" : "admin",
+  "endpointConfig" : "{\"production_endpoints\":{\"url\":\"http://samples.openweathermap.org/data/2.5/\",\"config\":null,\"template_not_supported\":false},\"endpoint_type\":\"http\"}",
+  "context" : "/Calculator",
+  "id" : "33bb65f4-83e9-4b77-9edf-eb1de9f00a57",
+  "thumbnailUri" : "/apis/33bb65f4-83e9-4b77-9edf-eb1de9f00a57/thumbnail",
+  "wsdlUri" : null,
+  "visibility" : "PUBLIC",
+  "transport" : [ "http", "https" ],
+  "version" : "1.0.0",
+  "endpointSecurity" : null,
+  "tags" : [ ],
+  "visibleTenants" : [ ],
+  "cacheTimeout" : 300,
+  "isDefaultVersion" : false,
+  "businessInformation" : {
+    "technicalOwnerEmail" : null,
+    "businessOwnerEmail" : null,
+    "businessOwner" : null,
+    "technicalOwner" : null
+  },
+  "name" : "Calculator",
+  "destinationStatsEnabled" : null,
+  "gatewayEnvironments" : "Production and Sandbox",
+  "responseCaching" : "Disabled",
+  "maxTps" : null,
+  "status" : "CREATED",
+  "subscriptionAvailableTenants" : [ ]
+}

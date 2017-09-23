@@ -1,0 +1,33 @@
+{
+  "count" : 3,
+  "next" : "",
+  "previous" : "",
+  "list" : [ {
+    "documentId" : "9766fce2-ef21-45ad-98b5-6e4d5182c445",
+    "name" : "test1",
+    "type" : "HOWTO",
+    "summary" : "test 1 doc",
+    "sourceType" : "INLINE",
+    "sourceUrl" : null,
+    "otherTypeName" : null,
+    "visibility" : "API_LEVEL"
+  }, {
+    "documentId" : "4bce37b3-e89a-401d-a673-7d1d2f821614",
+    "name" : "test2",
+    "type" : "HOWTO",
+    "summary" : "test2 doc",
+    "sourceType" : "URL",
+    "sourceUrl" : "https://en.wikipedia.org/wiki/Telephone",
+    "otherTypeName" : null,
+    "visibility" : "API_LEVEL"
+  }, {
+    "documentId" : "316b2eb4-e38c-4d75-bd3a-d9d1ca870726",
+    "name" : "file doc",
+    "type" : "HOWTO",
+    "summary" : "file doc summary",
+    "sourceType" : "FILE",
+    "sourceUrl" : null,
+    "otherTypeName" : null,
+    "visibility" : "API_LEVEL"
+  } ]
+}

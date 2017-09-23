@@ -1,0 +1,43 @@
+{
+  "tiers" : [ "Gold", "Silver" ],
+  "description" : null,
+  "apiDefinition" : "{\"swagger\":\"2.0\",\"paths\":{\"/Weather\":{\"get\":{\"responses\":{\"200\":{\"description\":\"\"}},\"x-auth-type\":\"Application & Application User\",\"x-throttling-tier\":\"Unlimited\"},\"post\":{\"responses\":{\"200\":{\"description\":\"\"}},\"parameters\":[{\"name\":\"Payload\",\"description\":\"Request Body\",\"required\":false,\"in\":\"body\",\"schema\":{\"type\":\"object\",\"properties\":{\"payload\":{\"type\":\"string\"}}}}],\"x-auth-type\":\"Application & Application User\",\"x-throttling-tier\":\"Unlimited\"}}},\"info\":{\"title\":\"WeatherAPI\",\"version\":\"1.0.0\"}}",
+  "type" : "HTTP",
+  "sequences" : [ ],
+  "visibleRoles" : [ ],
+  "corsConfiguration" : {
+    "accessControlAllowOrigins" : [ "*" ],
+    "accessControlAllowCredentials" : false,
+    "accessControlAllowHeaders" : [ "authorization", "Access-Control-Allow-Origin", "Content-Type", "SOAPAction" ],
+    "corsConfigurationEnabled" : false,
+    "accessControlAllowMethods" : [ "GET", "PUT", "POST", "DELETE", "PATCH", "OPTIONS" ]
+  },
+  "subscriptionAvailability" : null,
+  "provider" : "admin",
+  "endpointConfig" : "{\"production_endpoints\":{\"url\":\"http://samples.openweathermap.org/data/2.5/weather?q=London,uk&appid=b1b15e88fa797225412429c1c50c122a1\",\"config\":null,\"template_not_supported\":false},\"sandbox_endpoints\":{\"url\":\"http://samples.openweathermap.org/data/2.5/weather?q=London,uk&appid=b1b15e88fa797225412429c1c50c122a1\",\"config\":null,\"template_not_supported\":false},\"endpoint_type\":\"http\"}",
+  "context" : "/WeatherAPI",
+  "id" : "4aec4996-20a0-4d54-b174-c930dd303875",
+  "thumbnailUri" : "/apis/4aec4996-20a0-4d54-b174-c930dd303875/thumbnail",
+  "wsdlUri" : null,
+  "visibility" : "PUBLIC",
+  "transport" : [ "http", "https" ],
+  "version" : "1.0.0",
+  "endpointSecurity" : null,
+  "tags" : [ ],
+  "visibleTenants" : [ ],
+  "cacheTimeout" : 300,
+  "isDefaultVersion" : false,
+  "businessInformation" : {
+    "technicalOwnerEmail" : null,
+    "businessOwnerEmail" : null,
+    "businessOwner" : null,
+    "technicalOwner" : null
+  },
+  "name" : "WeatherAPI",
+  "destinationStatsEnabled" : null,
+  "gatewayEnvironments" : "Production and Sandbox",
+  "responseCaching" : "Disabled",
+  "maxTps" : null,
+  "status" : "CREATED",
+  "subscriptionAvailableTenants" : [ ]
+}

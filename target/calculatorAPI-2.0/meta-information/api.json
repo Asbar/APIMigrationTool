@@ -1,0 +1,54 @@
+{
+  "tiers" : [ "Bronze" ],
+  "description" : "sample API",
+  "apiDefinition" : "{\"paths\":{\"/*\":{\"post\":{\"x-auth-type\":\"Application & Application User\",\"responses\":{\"200\":{\"description\":\"OK\"}},\"parameters\":[{\"schema\":{\"type\":\"string\"},\"in\":\"body\",\"name\":\"SOAP Request\",\"description\":\"SOAP request.\",\"required\":true},{\"in\":\"header\",\"name\":\"SOAPAction\",\"description\":\"SOAPAction header for soap 1.1\",\"type\":\"string\",\"required\":false}],\"x-throttling-tier\":\"Unlimited\"}}},\"produces\":[\"text/xml\",\"application/soap+xml\"],\"swagger\":\"2.0\",\"consumes\":[\"text/xml\",\"application/soap+xml\"],\"info\":{\"description\":\"sample API\",\"title\":\"calculatorAPI\",\"version\":\"2.0\"}}",
+  "sequences" : [ {
+    "shared" : false,
+    "name" : "log_in_message",
+    "id" : "36315140-825a-4c92-afb9-6854d3c6405b",
+    "type" : "in",
+    "config" : null
+  }, {
+    "shared" : true,
+    "name" : "kav_in_messagekk",
+    "id" : "ca9e490f-eb4c-4955-86df-f6f6ce377b95",
+    "type" : "out",
+    "config" : null
+  } ],
+  "visibleRoles" : [ ],
+  "corsConfiguration" : {
+    "accessControlAllowOrigins" : [ "*" ],
+    "accessControlAllowCredentials" : false,
+    "corsConfigurationEnabled" : false,
+    "accessControlAllowHeaders" : [ "authorization", "Access-Control-Allow-Origin", "Content-Type", "SOAPAction" ],
+    "accessControlAllowMethods" : [ "GET", "PUT", "POST", "DELETE", "PATCH", "OPTIONS" ]
+  },
+  "subscriptionAvailability" : null,
+  "provider" : "admin",
+  "endpointConfig" : "{\"production_endpoints\":{\"url\":\"https://svn.apache.org/repos/asf/airavata/sandbox/xbaya-web/test/Calculator.wsdl\",\"config\":null,\"template_not_supported\":false},\"endpoint_type\":\"http\"}",
+  "context" : "/calculator",
+  "id" : "3a8236ec-7743-4db4-bbd1-96fc9f9fd4e0",
+  "thumbnailUri" : "/apis/3a8236ec-7743-4db4-bbd1-96fc9f9fd4e0/thumbnail",
+  "wsdlUri" : "/registry/resource/_system/governance/apimgt/applicationdata/wsdls/admin--calculatorAPI1.0.wsdl",
+  "visibility" : "PUBLIC",
+  "transport" : [ "http", "https" ],
+  "version" : "2.0",
+  "endpointSecurity" : null,
+  "tags" : [ "cal" ],
+  "visibleTenants" : [ ],
+  "cacheTimeout" : 300,
+  "isDefaultVersion" : false,
+  "businessInformation" : {
+    "technicalOwnerEmail" : null,
+    "businessOwnerEmail" : null,
+    "businessOwner" : null,
+    "technicalOwner" : null
+  },
+  "name" : "calculatorAPI",
+  "destinationStatsEnabled" : null,
+  "gatewayEnvironments" : "Production and Sandbox",
+  "responseCaching" : "Disabled",
+  "maxTps" : null,
+  "status" : "CREATED",
+  "subscriptionAvailableTenants" : [ ]
+}

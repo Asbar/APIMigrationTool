@@ -1,0 +1,43 @@
+{
+  "tiers" : [ "Bronze", "Gold", "Silver" ],
+  "description" : null,
+  "apiDefinition" : "{\"swagger\":\"2.0\",\"paths\":{\"/tasks\":{\"get\":{\"responses\":{\"200\":{\"description\":\"\"}},\"x-auth-type\":\"Application & Application User\",\"x-throttling-tier\":\"Unlimited\"},\"post\":{\"responses\":{\"200\":{\"description\":\"\"}},\"parameters\":[{\"name\":\"Payload\",\"description\":\"Request Body\",\"required\":false,\"in\":\"body\",\"schema\":{\"type\":\"object\",\"properties\":{\"payload\":{\"type\":\"string\"}}}}],\"x-auth-type\":\"Application & Application User\",\"x-throttling-tier\":\"Unlimited\"}}},\"info\":{\"title\":\"TasksAPI\",\"version\":\"1.0.0\"}}",
+  "type" : "HTTP",
+  "sequences" : [ ],
+  "visibleRoles" : [ ],
+  "corsConfiguration" : {
+    "accessControlAllowOrigins" : [ "*" ],
+    "accessControlAllowCredentials" : false,
+    "accessControlAllowHeaders" : [ "authorization", "Access-Control-Allow-Origin", "Content-Type", "SOAPAction" ],
+    "corsConfigurationEnabled" : false,
+    "accessControlAllowMethods" : [ "GET", "PUT", "POST", "DELETE", "PATCH", "OPTIONS" ]
+  },
+  "subscriptionAvailability" : null,
+  "provider" : "admin",
+  "endpointConfig" : "{\"production_endpoints\":{\"url\":\"https://www.googleapis.com/auth/tasks\",\"config\":null,\"template_not_supported\":false},\"sandbox_endpoints\":{\"url\":\"https://www.googleapis.com/auth/tasks\",\"config\":null,\"template_not_supported\":false},\"endpoint_type\":\"http\"}",
+  "context" : "/tasks",
+  "id" : "ac6ec8ff-1dc5-4349-acba-8d8454afb65d",
+  "thumbnailUri" : "/apis/ac6ec8ff-1dc5-4349-acba-8d8454afb65d/thumbnail",
+  "wsdlUri" : null,
+  "visibility" : "PUBLIC",
+  "transport" : [ "http", "https" ],
+  "version" : "1.0.0",
+  "endpointSecurity" : null,
+  "tags" : [ ],
+  "visibleTenants" : [ ],
+  "cacheTimeout" : 300,
+  "isDefaultVersion" : false,
+  "businessInformation" : {
+    "technicalOwnerEmail" : null,
+    "businessOwnerEmail" : null,
+    "businessOwner" : null,
+    "technicalOwner" : null
+  },
+  "name" : "TasksAPI",
+  "destinationStatsEnabled" : null,
+  "gatewayEnvironments" : "Production and Sandbox",
+  "responseCaching" : "Disabled",
+  "maxTps" : null,
+  "status" : "CREATED",
+  "subscriptionAvailableTenants" : [ ]
+}

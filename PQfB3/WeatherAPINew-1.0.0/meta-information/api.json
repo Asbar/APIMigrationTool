@@ -1,0 +1,43 @@
+{
+  "tiers" : [ "Gold", "Silver" ],
+  "description" : null,
+  "apiDefinition" : "{\"swagger\":\"2.0\",\"paths\":{\"/weather\":{\"get\":{\"responses\":{\"200\":{\"description\":\"\"}},\"parameters\":[{\"name\":\"q\",\"in\":\"query\",\"required\":false,\"type\":\"string\"},{\"name\":\"appid\",\"in\":\"query\",\"required\":false,\"type\":\"string\"}],\"x-auth-type\":\"Application & Application User\",\"x-throttling-tier\":\"Unlimited\"}}},\"info\":{\"title\":\"WeatherAPINew\",\"version\":\"1.0.0\"}}",
+  "type" : "HTTP",
+  "sequences" : [ ],
+  "visibleRoles" : [ ],
+  "corsConfiguration" : {
+    "accessControlAllowOrigins" : [ "*" ],
+    "accessControlAllowCredentials" : false,
+    "accessControlAllowHeaders" : [ "authorization", "Access-Control-Allow-Origin", "Content-Type", "SOAPAction" ],
+    "corsConfigurationEnabled" : false,
+    "accessControlAllowMethods" : [ "GET", "PUT", "POST", "DELETE", "PATCH", "OPTIONS" ]
+  },
+  "subscriptionAvailability" : null,
+  "provider" : "admin",
+  "endpointConfig" : "{\"production_endpoints\":{\"url\":\"http://samples.openweathermap.org/data/2.5/\",\"config\":null,\"template_not_supported\":false},\"endpoint_type\":\"http\"}",
+  "context" : "/WeatherAPINew",
+  "id" : "aa67ed54-62b6-417e-8247-0b7684144462",
+  "thumbnailUri" : "/apis/aa67ed54-62b6-417e-8247-0b7684144462/thumbnail",
+  "wsdlUri" : null,
+  "visibility" : "PUBLIC",
+  "transport" : [ "http", "https" ],
+  "version" : "1.0.0",
+  "endpointSecurity" : null,
+  "tags" : [ ],
+  "visibleTenants" : [ ],
+  "cacheTimeout" : 300,
+  "isDefaultVersion" : false,
+  "businessInformation" : {
+    "technicalOwnerEmail" : null,
+    "businessOwnerEmail" : null,
+    "businessOwner" : "WSO2",
+    "technicalOwner" : null
+  },
+  "name" : "WeatherAPINew",
+  "destinationStatsEnabled" : null,
+  "gatewayEnvironments" : "Production and Sandbox",
+  "responseCaching" : "Disabled",
+  "maxTps" : null,
+  "status" : "CREATED",
+  "subscriptionAvailableTenants" : [ ]
+}

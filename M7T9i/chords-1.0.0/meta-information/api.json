@@ -1,0 +1,43 @@
+{
+  "tiers" : [ "Gold", "Silver", "Unlimited" ],
+  "description" : null,
+  "apiDefinition" : "{\"swagger\":\"2.0\",\"paths\":{\"/chord\":{\"get\":{\"responses\":{\"200\":{\"description\":\"\"}},\"produces\":[\"application/xml\"],\"consumes\":[\"application/json\"],\"parameters\":[{\"name\":\"chord\",\"in\":\"query\",\"required\":false,\"type\":\"string\",\"description\":\"chord\"}],\"summary\":\"chord\",\"x-auth-type\":\"Application & Application User\",\"x-throttling-tier\":\"Unlimited\"}}},\"info\":{\"title\":\"chords\",\"version\":\"1.0.0\"}}",
+  "type" : "HTTP",
+  "sequences" : [ ],
+  "visibleRoles" : [ ],
+  "corsConfiguration" : {
+    "accessControlAllowOrigins" : [ "*" ],
+    "accessControlAllowCredentials" : false,
+    "accessControlAllowHeaders" : [ "authorization", "Access-Control-Allow-Origin", "Content-Type", "SOAPAction" ],
+    "corsConfigurationEnabled" : false,
+    "accessControlAllowMethods" : [ "GET", "PUT", "POST", "DELETE", "PATCH", "OPTIONS" ]
+  },
+  "subscriptionAvailability" : null,
+  "provider" : "admin",
+  "endpointConfig" : "{\"production_endpoints\":{\"url\":\"http://ws.cdyne.com/phoneverify/phoneverify.asmx\",\"config\":null,\"template_not_supported\":false},\"sandbox_endpoints\":{\"url\":\"http://ws.cdyne.com/phoneverify/phoneverify.asmx\",\"config\":null,\"template_not_supported\":false},\"endpoint_type\":\"http\"}",
+  "context" : "/chords",
+  "id" : "4bfbd9c7-9f86-420f-9666-d45c663d55f2",
+  "thumbnailUri" : null,
+  "wsdlUri" : null,
+  "visibility" : "PUBLIC",
+  "transport" : [ "http", "https" ],
+  "version" : "1.0.0",
+  "endpointSecurity" : null,
+  "tags" : [ ],
+  "visibleTenants" : [ ],
+  "cacheTimeout" : 300,
+  "isDefaultVersion" : false,
+  "businessInformation" : {
+    "technicalOwnerEmail" : null,
+    "businessOwnerEmail" : null,
+    "businessOwner" : null,
+    "technicalOwner" : null
+  },
+  "name" : "chords",
+  "destinationStatsEnabled" : null,
+  "gatewayEnvironments" : "Production and Sandbox",
+  "responseCaching" : "Disabled",
+  "maxTps" : null,
+  "status" : "CREATED",
+  "subscriptionAvailableTenants" : [ ]
+}

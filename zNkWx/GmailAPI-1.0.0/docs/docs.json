@@ -1,0 +1,15 @@
+{
+  "count" : 1,
+  "next" : "",
+  "previous" : "",
+  "list" : [ {
+    "documentId" : "32731e91-dabb-4871-a5f9-dd00d3a4d230",
+    "name" : "Gmail API Document",
+    "type" : "HOWTO",
+    "summary" : "Guidance for the API",
+    "sourceType" : "FILE",
+    "sourceUrl" : null,
+    "otherTypeName" : null,
+    "visibility" : "API_LEVEL"
+  } ]
+}

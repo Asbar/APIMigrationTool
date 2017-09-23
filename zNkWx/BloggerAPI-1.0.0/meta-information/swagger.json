@@ -1,0 +1,43 @@
+{
+  "swagger" : "2.0",
+  "paths" : {
+    "/BloggerAPI" : {
+      "get" : {
+        "responses" : {
+          "200" : {
+            "description" : ""
+          }
+        },
+        "x-auth-type" : "Application & Application User",
+        "x-throttling-tier" : "Unlimited"
+      },
+      "post" : {
+        "responses" : {
+          "200" : {
+            "description" : ""
+          }
+        },
+        "parameters" : [ {
+          "name" : "Payload",
+          "description" : "Request Body",
+          "required" : false,
+          "in" : "body",
+          "schema" : {
+            "type" : "object",
+            "properties" : {
+              "payload" : {
+                "type" : "string"
+              }
+            }
+          }
+        } ],
+        "x-auth-type" : "Application & Application User",
+        "x-throttling-tier" : "Unlimited"
+      }
+    }
+  },
+  "info" : {
+    "title" : "BloggerAPI",
+    "version" : "1.0.0"
+  }
+}

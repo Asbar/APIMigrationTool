@@ -1,0 +1,24 @@
+{
+  "count" : 2,
+  "next" : "",
+  "previous" : "",
+  "list" : [ {
+    "documentId" : "e010fec4-0282-401e-ace4-a6c835f64d83",
+    "name" : "Inline doc",
+    "type" : "HOWTO",
+    "summary" : "sample inline ",
+    "sourceType" : "INLINE",
+    "sourceUrl" : null,
+    "otherTypeName" : null,
+    "visibility" : "API_LEVEL"
+  }, {
+    "documentId" : "552b11ca-0138-463b-8967-16547b9d8667",
+    "name" : "url document ",
+    "type" : "HOWTO",
+    "summary" : "sample url",
+    "sourceType" : "URL",
+    "sourceUrl" : "http://stackoverflow.com/questions/11496040/how-should-resources-in-a-compiled-jar-be-accessed",
+    "otherTypeName" : null,
+    "visibility" : "API_LEVEL"
+  } ]
+}
